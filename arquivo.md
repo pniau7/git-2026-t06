@@ -9,6 +9,11 @@ Comentários:
    2. git config --global user.email "pniau7@gmail.com"
 5. Untracker -> não está sendo acompanhado
 6. Unstaged -> o arquivo está em um estado diferente da última versão salva
+7. Padrão: Nunca mexer arquivos na main! Sempre fazer branch, modificar e depois merge
+8. Branch: cria uma ramificação. Carrega toda a informação
+
+   1. Como se fosse uma cópia do diretório main
+   2. Posso modificar sem impactar a main
 
 
 
@@ -39,6 +44,9 @@ Comandos git:
    1. Head é o último que está na ponta. Estado atual
    2. (HEAD -> main) indica qual commit é a cabeça (representando os arquivos atuais)
 7. git reset -> restaura arquivos que estava staged
+8. git checkout -> Estamos saíndo (como no hotel)
+
+   1. git checkout -b -> Muda de branch e cria a branch
 
 
 
@@ -47,5 +55,5 @@ Comandos git:
 Dúvidas:
 
 1. Desfazer commit: Fiz um commit, mas esqueci um detalhe e não faz sentido realizar outro commit. Tem como desfazer o último commit?
-2. 
+2. Testes
 
