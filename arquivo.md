@@ -1,21 +1,40 @@
 Comentários:
 
-* O . indica a pasta atual
-* O .. indica a pasta pai
-* A pasta .git contem todas as informações do versionamento
+1. O . indica a pasta atual
+2. O .. indica a pasta pai
+3. A pasta .git contem todas as informações do versionamento
+4. Todo commit precisa de um autor e um contato (email). Na primeira vez que roda GIT não tem essas informações e pede na hora de realizar o primeiro commit.
+
+   1. git config --global user.name "Pierre"
+   2. git config --global user.email "pniau7@gmail.com"
+5. Untracker -> não está sendo acompanhado
+6. Unstaged -> o arquivo está em um estado diferente da última versão salva
 
 
 
 Comandos:
 
-* pwd
-* ls
-* touch
-* ls -a (para ver arquivos ocultos)
+1. pwd
+2. ls
+3. touch
+4. ls -a (para ver arquivos ocultos)
 
 
 
 Comandos git:
 
-1. git init .
+1. git init . -> inicia o versionamento do conteúdo da pasta
+2. git status -> mostra o status do versionamento
+3. git add arquivo.md -> Prepara para ser commitado
+4. git commit -m "Primeiro commit" -> Executa o checkpoint/versão/snapshot/save (-m é flag para inserir uma mensagem)
+
+   1. \[main (root-commit) fc383ab] Primeiro commit
+   2. fc383ab é o CPF do commit
+5. git status
+
+   1. nothing to commit, working tree clean
+   2. Working tree clean: o estado/conteudo da pasta está idêntico à última versão/commit
+6. git log -> Lista todos os commits, seu identificador, autor, data e mensagem
+
+   1. Head é o último que está na ponta. Estado atual
 
