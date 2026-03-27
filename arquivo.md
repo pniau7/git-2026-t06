@@ -37,4 +37,15 @@ Comandos git:
 6. git log -> Lista todos os commits, seu identificador, autor, data e mensagem
 
    1. Head é o último que está na ponta. Estado atual
+   2. (HEAD -> main) indica qual commit é a cabeça (representando os arquivos atuais)
+7. git reset -> restaura arquivos que estava staged
+
+
+
+
+
+Dúvidas:
+
+1. Desfazer commit: Fiz um commit, mas esqueci um detalhe e não faz sentido realizar outro commit. Tem como desfazer o último commit?
+2. 
 
